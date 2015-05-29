@@ -1,7 +1,7 @@
 ## Utility functions for evaluating the performance of classification methods
 module PerformanceEval
 
-export auc, rank_enrichment, evaluate_scores, get_enrichment, notHistone, precision_recall
+export auc, rank_enrichment, rank_precision, evaluate_scores, get_enrichment, notHistone, precision_recall
 
 # fill in any blank spots with nearby values
 function fill_nans(vals)
